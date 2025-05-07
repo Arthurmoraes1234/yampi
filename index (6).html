@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1385762182842902'); 
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1385762182842902&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+
+  <!-- UTMify -->
+<script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  data-utmify-ignore-iframe
+  data-utmify-is-cartpanda
+  async
+  defer
+></script>
+  
+  <!-- Microsoft Clarity -->
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "pfm4djghr3");
+</script>
+
+  <!-- Meta tags, título e tudo mais -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Playbook - Free Your Child From Screens</title>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Playbook - Free Your Child From Screens</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #001f3f 0%, #000000 100%);
+      color: #ffffff;
+    }
+    
+    .gradient-text {
+      background: linear-gradient(90deg, #ff5252 0%, #00e676 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    
+    .glow-button {
+      box-shadow: 0 0 15px rgba(0, 200, 83, 0.6);
+      transition: all 0.3s ease;
+    }
+    
+    .glow-button:hover {
+      box-shadow: 0 0 25px rgba(0, 200, 83, 0.8);
+      transform: translateY(-2px);
+    }
+    
+    .offer-card {
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+    
+    .offer-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    }
+    
+    .feature-icon {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      margin-right: 15px;
+      flex-shrink: 0;
+    }
+    
+    .testimonial-card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .video-container {
+      position: relative;
+      padding-top: 56.25%;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+    
+    .video-container iframe,
+    .video-container video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    
+    .floating {
+      animation: floating 3s ease-in-out infinite;
+    }
+    
+    @keyframes floating {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+    
+    .flipbook-container {
+      max-width: 700px;
+      margin: 30px auto;
+      text-align: center;
+    }
+    
+    .flipbook-iframe {
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 8px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      margin: 0 auto;
+    }
+  
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+  
+    /* Animation classes */
+    .animate-fadeIn {
+      animation: fadeIn 1s ease-out forwards;
+    }
+  
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    /* Price styling */
+    .price {
+      font-size: 3.5rem;
+      font-weight: 800;
+      line-height: 1;
+      margin: 20px 0;
+      position: relative;
+      display: inline-block;
+    }
+    
+    .price::before {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(90deg, #00c853, #001f3f);
+    }
+    
+    /* Ribbon for popular offer */
+    .ribbon {
+      width: 150px;
+      height: 150px;
+      overflow: hidden;
+      position: absolute;
+      top: -10px;
+      right: -10px;
+    }
+    
+    .ribbon-content {
+      position: absolute;
+      display: block;
+      width: 225px;
+      padding: 15px 0;
+      background-color: #00c853;
+      box-shadow: 0 5px 10px rgba(0,0,0,.1);
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+      transform: rotate(45deg);
+      right: -25px;
+      top: 40px;
+    }
+    
+    /* Offer card gradient */
+    .premium-offer {
+      background: linear-gradient(135deg, rgba(0, 40, 83, 0.8) 0%, rgba(0, 200, 83, 0.3) 100%);
+      border: 2px solid rgba(0, 200, 83, 0.5);
+    }
+    
+    .basic-offer {
+      background: linear-gradient(135deg, rgba(0, 40, 83, 0.8) 0%, rgba(0, 100, 200, 0.3) 100%);
+      border: 2px solid rgba(0, 100, 200, 0.5);
+    }
+  
+    /* Countdown timer styles */
+    .countdown-container {
+      background: #111;
+      padding: 20px;
+      border: 2px solid #e53935;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 30px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .countdown-message {
+      font-size: 18px;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+    
+    .countdown-timer {
+      font-size: 32px;
+      font-weight: bold;
+      color: #ff5252;
+    }
+
+    /* Wine red text highlight */
+    .wine-highlight {
+      background-color: #722f37;
+      padding: 4px 12px;
+      border-radius: 20px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body class="min-h-screen">
+  <!-- Header -->
+  <header class="py-10">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-center">
+        <img src="https://i.imgur.com/LTIcyN4.png" alt="Logo" class="w-48 floating" />
+      </div>
+    </div>
+  </header>
+
+<!-- Hero Section -->
+<section class="py-4">
+  <div class="container mx-auto px-4 max-w-4xl">
+    <h1 class="text-3xl md:text-4xl font-bold text-center mb-10">
+      <span class="gradient-text">Se você entrega o celular pro seu filho só pra ele ficar quieto...</span><br>
+      <span class="text-white">não se surpreenda quando ele parar de te ouvir.</span>
+    </h1>
+    <p class="text-lg text-gray-300 text-center mb-6">
+      O que começa como um vídeo “inocente” no YouTube vira ansiedade, vício e distância emocional.  
+      Ninguém te avisa... até ser tarde demais.
+    </p>
+    <p class="text-lg text-gray-300 text-center mb-10">
+      <span class="wine-highlight">🚨 Assista isso antes de de ver a página!.</span>
+    </p>
+
+<!-- Vturb Video Embed - Atualizado -->
+<div class="mb-10">
+  <div id="vid_67ed92b2d7b5306e7eed3651" style="position: relative; width: 100%; padding: 133.33333333333331% 0 0;">
+    <img id="thumb_67ed92b2d7b5306e7eed3651" src="https://images.converteai.net/751abf94-7b61-4139-9bd2-92a8e5c430a1/players/67ed92b2d7b5306e7eed3651/thumbnail.jpg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block;" alt="thumbnail">
+    <div id="backdrop_67ed92b2d7b5306e7eed3651" style="-webkit-backdrop-filter: blur(5px); backdrop-filter: blur(5px); position: absolute; top: 0; height: 100%; width: 100%;"></div>
+  </div>
+  <script type="text/javascript" id="scr_67ed92b2d7b5306e7eed3651">
+    var s = document.createElement("script");
+    s.src = "https://scripts.converteai.net/751abf94-7b61-4139-9bd2-92a8e5c430a1/players/67ed92b2d7b5306e7eed3651/player.js";
+    s.async = true;
+    document.head.appendChild(s);
+  </script>
+</div>
+
+<!-- Botão 1 após o vídeo -->
+<div class="text-center mb-12">
+  <a href="#offers" class="inline-block bg-gradient-to-r from-green-500 to-green-600 text-white font-bold py-4 px-8 rounded-xl text-lg glow-button">
+    Me mostra como proteger meu filho antes que piore
+  </a>
+</div>
+
+<!-- Benefícios do Livro -->
+<section class="py-12 bg-gradient-to-b from-gray-900 to-black">
+  <div class="container mx-auto px-4 max-w-4xl">
+    <h2 class="text-3xl font-bold text-center mb-8 text-green-400">Mais de <span class="text-white">10.000 famílias</span> já interromperam o vício digital com isso</h2>
+
+    <div class="grid md:grid-cols-2 gap-6 mb-16">
+      <div class="flex items-start">
+        <div class="feature-icon bg-green-500/20 text-green-400">
+          <i class="fas fa-check text-xl"></i>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-1">Criado com psicólogos infantis</h3>
+          <p class="text-gray-300">Baseado em pesquisas científicas sobre o desenvolvimento infantil</p>
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <div class="feature-icon bg-blue-500/20 text-blue-400">
+          <i class="fas fa-gamepad text-xl"></i>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-1">50 atividades offline testadas</h3>
+          <p class="text-gray-300">Brincadeiras criativas que estimulam o desenvolvimento</p>
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <div class="feature-icon bg-purple-500/20 text-purple-400">
+          <i class="fas fa-file-pdf text-xl"></i>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-1">Versão em PDF pra imprimir em minutos</h3>
+          <p class="text-gray-300">Imprimível e sempre disponível quando precisar</p>
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <div class="feature-icon bg-yellow-500/20 text-yellow-400">
+          <i class="fas fa-child text-xl"></i>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-1">Perfeito para crianças de 3 a 10 anos</h3>
+          <p class="text-gray-300">Fortalece a conexão entre pais e filhos</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Problemas causados pelos eletrônicos -->
+<section class="py-12">
+  <div class="container mx-auto px-4 max-w-6xl">
+    <div class="bg-gray-800/50 p-10 rounded-2xl border border-gray-700 shadow-xl">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-10 text-red-400 leading-tight">
+        Pare de rolar a tela. É isso que as telas estão fazendo com seu filho:
+      </h2>
+      <ul class="space-y-6 text-lg text-blue-100 list-none">
+        <li class="flex items-start">
+          <span class="text-red-400 mr-3 text-xl">❌</span>
+          <strong>Destruindo a capacidade de atenção</strong>
+        </li>
+        <li class="flex items-start">
+          <span class="text-red-400 mr-3 text-xl">❌</span>
+          <strong>Gerando irritabilidade e mudanças de humor</strong>
+        </li>
+        <li class="flex items-start">
+          <span class="text-red-400 mr-3 text-xl">❌</span>
+          <strong>Atrasando o desenvolvimento cognitivo e emocional</strong>
+        </li>
+        <li class="flex items-start">
+          <span class="text-red-400 mr-3 text-xl">❌</span>
+          <strong>Criando distância emocional entre vocês</strong>
+        </li>
+        <li class="flex items-start">
+          <span class="text-blue-300 mr-3 text-xl">📉</span>
+          <strong>Apenas 2 horas por dia já dobram o risco de ansiedade e déficit de atenção</strong>
+        </li>
+      </ul>
+
+<!-- Botão CTA -->
+<div class="text-center mt-12">
+  <a href="#offers" class="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white font-bold py-5 px-10 rounded-xl text-lg glow-button hover:from-red-600 hover:to-red-700 transition-all duration-300">
+    Me mostra como proteger meu filho disso
+  </a>
+</div>
+
+     
+<!-- Prévia do Livro -->
+<div class="flipbook-container">
+  <h2 class="text-2xl font-bold mb-4 text-white">Dá uma olhada por dentro do livro:</h2>
+  <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/692ea91188.html" style="border: 0px; width: 100%; height: 357px;"></iframe>
+</div>
+</div>
+</section>
+
+<!-- Seção: Mecanismo Único -->
+<section class="py-12 bg-gradient-to-b from-black to-gray-900">
+  <div class="container mx-auto px-4 max-w-4xl">
+    <h2 class="text-3xl font-bold text-center mb-8 text-green-400">Você não precisa ser criativo nem professor.</h2>
+    <p class="text-lg text-gray-300 text-center mb-10">
+      Esse livro foi feito pra pais cansados e ocupados. Atividades inteligentes, simples e sem telas. É só imprimir, aplicar e sentir a diferença em uma semana.
+    </p>
+  </div>
+</section>
+      
+<!-- Depoimentos em Vídeo -->
+<section class="py-12">
+  <div class="container mx-auto px-4 max-w-4xl">
+    <h2 class="text-3xl font-bold text-center mb-8 text-white">Depoimentos reais de pais</h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Vídeo 1 -->
+      <div class="rounded-xl overflow-hidden shadow-lg">
+        <video controls class="w-full rounded-xl">
+          <source src="https://video.wixstatic.com/video/512b9f_60ae51e5731347a2ad7018cbb8ac9103/480p/mp4/file.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos.
+        </video>
+      </div>
+
+      <!-- Vídeo 2 -->
+      <div class="rounded-xl overflow-hidden shadow-lg">
+        <video controls class="w-full rounded-xl">
+          <source src="https://video.wixstatic.com/video/512b9f_f98411deb0484427b0e53076c6cf5f01/480p/mp4/file.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos.
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+      
+<!-- Temporizador de contagem regressiva -->
+<div class="countdown-container">
+  <h3 class="countdown-message">
+    🕐 O pacote completo está com 71% de desconto, mas só por mais alguns minutos.<br>
+    Essa pode ser sua última chance de transformar a rotina do seu filho!
+  </h3>
+  <p id="countdown" class="countdown-timer"></p>
+</div>
+
+<!-- AQUI COMEÇA A SEÇÃO DAS OFERTAS COM O ID -->
+<section id="offers" class="py-12">
+  <h2 class="text-3xl font-bold text-center mb-8 text-white">Escolha sua versão e comece agora</h2>
+
+  <div class="grid md:grid-cols-2 gap-8 mb-16">
+  <!-- Oferta Premium -->
+  <div class="offer-card premium-offer p-8 relative">
+    <div class="ribbon">
+      <span class="ribbon-content">Mais Popular</span>
+    </div>
+
+    <div class="text-center mb-6">
+      <div class="text-green-400 text-2xl font-bold mb-2">Pacote Completo</div>
+      <div class="flex items-center justify-center gap-3">
+        <span class="text-gray-400 line-through text-2xl md:text-3xl">R$59</span>
+        <div class="price text-green-400 text-4xl md:text-5xl font-extrabold">R$16,90</div>
+      </div>
+      <div class="text-gray-300 mb-4">Pagamento único</div>
+    </div>
+
+    <ul class="space-y-4 mb-8">
+      <li class="flex items-start">
+        <i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i>
+        <span class="text-gray-200">50 atividades criativas</span>
+      </li>
+      <li class="flex items-start">
+        <i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i>
+        <span class="text-gray-200">Acesso vitalício</span>
+      </li>
+      <li class="flex items-start">
+        <i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i>
+        <span class="text-gray-200">Atualizações mensais</span>
+      </li>
+      <li class="flex items-start">
+        <i class="fas fa-check-circle text-green-400 mt-1 mr-3"></i>
+        <span class="text-gray-200">PDF + acesso online</span>
+      </li>
+    </ul>
+
+    <a href="https://bellavitaexpress.mycartpanda.com/checkout/180536274:1" class="block w-full bg-gradient-to-r from-green-500 to-green-600 text-white font-bold py-4 px-6 rounded-lg text-center glow-button hover:from-green-600 hover:to-green-700 transition-all duration-300">
+      Eu quero isso | Comprar agora
+    </a>
+  </div>
+            
+        <!-- Oferta Básica -->
+  <div class="offer-card basic-offer p-8">
+    <div class="text-center mb-6">
+      <div class="text-blue-400 text-2xl font-bold mb-2">Pacote Básico</div>
+      <div class="price text-blue-400">R$12,90</div>
+      <div class="text-gray-300 mb-4">Pagamento único</div>
+    </div>
+
+    <ul class="space-y-4 mb-8">
+      <li class="flex items-start">
+        <i class="fas fa-check-circle text-blue-400 mt-1 mr-3"></i>
+        <span class="text-gray-200">30 atividades offline</span>
+      </li>
+      <li class="flex items-start">
+        <i class="fas fa-check-circle text-blue-400 mt-1 mr-3"></i>
+        <span class="text-gray-200">6 meses de acesso</span>
+      </li>
+      <li class="flex items-start">
+        <i class="fas fa-check-circle text-blue-400 mt-1 mr-3"></i>
+        <span class="text-gray-200">PDF para impressão</span>
+      </li>
+    </ul>
+
+    <a href="https://bellavitaexpress.mycartpanda.com/checkout/180537101:1" class="block w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white font-bold py-4 px-6 rounded-lg text-center glow-button hover:from-blue-600 hover:to-blue-700 transition-all duration-300">
+      Eu quero isso | Comprar agora
+    </a>
+  </div>
+</div>
+          
+<div class="bg-gray-800/50 p-6 rounded-xl border border-gray-700 text-center max-w-2xl mx-auto">
+  <div class="w-16 h-16 bg-yellow-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+    <i class="fas fa-shield-alt text-2xl text-yellow-400"></i>
+  </div>
+  <h3 class="text-xl font-semibold mb-2">Se depois de 30 dias você não sentir diferença, devolvemos seu dinheiro.</h3>
+  <p class="text-gray-300">Mas o tempo que seu filho perdeu nas telas — ninguém pode devolver.</p>
+</div>
+</section>
+     
+     <!-- FAQ -->
+<section class="py-12">
+  <div class="container mx-auto px-4 max-w-4xl">
+    <h2 class="text-3xl font-bold text-center mb-8 text-white">Perguntas Frequentes</h2>
+    
+    <div class="space-y-6">
+      <div class="bg-gray-800/50 p-6 rounded-xl border border-gray-700">
+        <div class="flex items-start">
+          <div class="bg-purple-500/20 text-purple-400 rounded-lg p=2 mr=4">
+            <i class="fas fa-question"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb=2">Esse é um produto físico?</h3>
+            <p class="text-gray-300">Não. É um produto digital que você pode imprimir.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-gray-800/50 p-6 rounded-xl border border-gray=700">
+        <div class="flex items-start">
+          <div class="bg-blue-500/20 text-blue-400 rounded-lg p=2 mr=4">
+            <i class="fas fa-child"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb=2">Idade recomendada?</h3>
+            <p class="text-gray-300">Para crianças de 3 a 10 anos.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-gray-800/50 p-6 rounded-xl border border-gray=700">
+        <div class="flex items-start">
+          <div class="bg-green-500/20 text-green-400 rounded-lg p=2 mr=4">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb=2">Como eu recebo o produto?</h3>
+            <p class="text-gray-300">Por e-mail. Acesso instantâneo após a compra.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-gray-800/50 p-6 rounded-xl border border-gray=700">
+        <div class="flex items-start">
+          <div class="bg-yellow-500/20 text-yellow-400 rounded-lg p=2 mr=4">
+            <i class="fas fa-print"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb=2">Tem garantia?</h3>
+            <p class="text-gray-300">Sim. Reembolso total em até 30 dias.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Rodapé -->
+<footer class="py-8 bg-black">
+  <div class="container mx-auto px-4 max-w-4xl">
+    <div class="text-center">
+      <img src="https://i.imgur.com/1N7yWMM.png" alt="Logo" class="w-32 mx-auto mb-6" />
+      <p class="text-gray-400 mb-4">© 2023 Playbook. Todos os direitos reservados.</p>
+      <p class="text-gray-500 text-sm">
+        <a href="#" class="hover:text-gray-300 transition">Termos de Uso</a> |
+        <a href="#" class="hover:text-gray-300 transition">Política de Privacidade</a> |
+        <span class="text-gray-300">Garantia de reembolso de 30 dias</span>
+      </p>
+
+      <!-- Começa o novo conteúdo do ClickBank -->
+      <div class="mt-6 text-gray-500 text-xs leading-relaxed">
+        <p>Para suporte ao produto ou ajuda, entre em contato: <a href="mailto:brincadeirasparacriancass@gmail.com" class="underline">brincadeirasparacriancass@gmail.com</a></p>
+        <br>
+        <p>ClickBank é o varejista dos produtos neste site. CLICKBANK® é uma marca registrada da Click Sales Inc., uma corporação de Delaware localizada em 1444 S. Entertainment Ave., Suite 410 Boise, ID 83709, EUA e usada com permissão. O papel do ClickBank como varejista não constitui um endosso, aprovação ou revisão destes produtos ou de qualquer declaração, afirmação ou opinião usada na promoção destes produtos.</p>
+        <br>
+        <p>Este site não faz parte do site do Facebook™ ou da empresa Facebook™ Inc. Além disso, este site NÃO é endossado pelo Facebook™ de nenhuma forma. FACEBOOK™ é uma marca registrada da empresa FACEBOOK™, Inc.</p>
+      </div>
+      <!-- Termina o novo conteúdo do ClickBank -->
+
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Animação simples ao rolar a página
+  document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-fadeIn');
+        }
+      });
+    }, {threshold: 0.1});
+    
+    document.querySelectorAll('section').forEach(section => {
+      observer.observe(section);
+    });
+  });
+
+  // Temporizador regressivo
+  let mins = 29;
+  let secs = 59;
+  const countdown = document.getElementById('countdown');
+  const interval = setInterval(() => {
+    countdown.textContent = 
+      (mins < 10 ? '0' + mins : mins) + ':' + (secs < 10 ? '0' + secs : secs);
+    if (secs === 0) {
+      if (mins === 0) {
+        clearInterval(interval);
+        countdown.textContent = "00:00";
+      } else {
+        mins--;
+        secs = 59;
+      }
+    } else {
+      secs--;
+    }
+  }, 1000);
+</script>
+</div>
+</section>
